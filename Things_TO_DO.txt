@@ -1,0 +1,3 @@
+Sequence diagram
+Flow chart 
+Pseudo Code for major smart contract

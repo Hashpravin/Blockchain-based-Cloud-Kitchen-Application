@@ -120,3 +120,5 @@ Models
 - Dish[][5]
 - offer
 - location
+
+![Flow chart](./workingFlow.png)

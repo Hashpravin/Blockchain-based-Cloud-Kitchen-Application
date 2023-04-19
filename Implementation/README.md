@@ -1,4 +1,4 @@
-# Dappazon
+# TastyBite
 
 ## Technology Stack & Tools
 

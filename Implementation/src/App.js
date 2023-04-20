@@ -28,9 +28,13 @@ function App() {
   const [Pickel,setPickel] = useState(null)
   const [Sweets,setSweets] = useState(null)
   const [Dish,setDish] = useState(null)
-
-  const togglePop = () => {
-    console.log("Toggle run..")
+  
+  const [item,setItem] = useState({})
+  const [toggle, setToggle] = useState(false)
+  // Showing the details of the product....
+  const togglePop = (item) => {
+    setItem(item)
+    toggle ? setToggle(false) : setToggle(true)
   }
 
   const loadBlockchainData = async() => {
@@ -62,6 +66,7 @@ function App() {
       provider 
       )
       setTastyBites(tasty)
+      console.log(tasty)
     /* Here after getting the js version of smart contract have to 
     save this in variables
     */
@@ -100,6 +105,12 @@ function App() {
         <Section title={'Pickel'} items={Pickel} togglePop = {togglePop} />
         </>
       )}
+       
+       {toggle && (
+        <Product item={item} provider = {provider} account={account}
+        tasty={tasty} togglePop={togglePop}/>
+       )
+       }
 
     </div>
   );

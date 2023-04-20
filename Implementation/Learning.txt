@@ -1,0 +1,3 @@
+If we made any changes in our contract 
+then just go to artifacts -> contract -> TastyBite.json
+copy the content of abi in the abis folder in TastyBite.json

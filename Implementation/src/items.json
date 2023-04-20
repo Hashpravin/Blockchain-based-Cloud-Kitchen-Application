@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Gulab Jamun",
       "category": "Sweets",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/camera.jpg",
+      "image": "https://ipfs.io/ipfs/QmeDhhvrARYgZpSYJJvRXSTnE6VE4jZhXkeUSACiURN2PH",
       "price": "1",
       "rating": 4,
       "stock": 10
@@ -13,7 +13,7 @@
       "id": 2,
       "name": "Rasugula",
       "category": "Sweets",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/drone.jpg",
+      "image": "https://ipfs.io/ipfs/QmZzbbkgiZJqndQgNWBjkNX5g88aSNNsFJy9UaMgittRRm",
       "price": "2",
       "rating": 5,
       "stock": 6
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "Jalebi",
       "category": "Sweets",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/headset.jpg",
+      "image": "https://ipfs.io/ipfs/Qma8zCPBzMKvcJ7tuzVQJgH3sGXpLpJL1zaZ6839NcGvmt",
       "price": "2",
       "rating": 2,
       "stock": 24
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Pullav",
       "category": "Dish",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/shoes.jpg",
+      "image": "https://ipfs.io/ipfs/QmWTLFqvREwYYJbQwNH1y91WRD2wE5X1jak6ywEZNMTHbY",
       "price": "0.25",
       "rating": 5,
       "stock": 3
@@ -40,7 +40,7 @@
       "id": 5,
       "name": "Rajama",
       "category": "Dish",
-      "image": "https://ipfs.io/ipfs/QmZCi1pMCSMM6PisWkdE32UudN4igDfoWrJsVbnenV7mLC",
+      "image": "https://ipfs.io/ipfs/QmXLX52yMaQ6dCzt8vbCkXXSwDeSSZViAmoD1hDxNwdoaE",
       "price": "0.10",
       "rating": 4,
       "stock": 12
@@ -49,7 +49,7 @@
       "id": 6,
       "name": "Veg Thali",
       "category": "Dish",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/watch.jpg",
+      "image": "https://ipfs.io/ipfs/QmZCi1pMCSMM6PisWkdE32UudN4igDfoWrJsVbnenV7mLC",
       "price": "1.25",
       "rating": 4,
       "stock": 0
@@ -58,7 +58,7 @@
       "id": 7,
       "name": "Mango Pickel",
       "category": "Pickel",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/cube.jpg",
+      "image": "https://ipfs.io/ipfs/QmUNXKCPzedd4KUb7EC1VwufhK159L4MC4z3zGdSxugDTf",
       "price": "0.05",
       "rating": 4,
       "stock": 15
@@ -67,7 +67,7 @@
       "id": 8,
       "name": "Lemon Pickel",
       "category": "Pickel",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/train.jpg",
+      "image": "https://ipfs.io/ipfs/QmVMxucuXfnkm8HMYvSErGS9UpNDdvHUWi4sV4gRVeJ8oA",
       "price": "0.20",
       "rating": 4,
       "stock": 0
@@ -76,7 +76,7 @@
       "id": 9,
       "name": "XYZ Pickel",
       "category": "Pickel",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/robots.jpg",
+      "image": "https://ipfs.io/ipfs/QmVMxucuXfnkm8HMYvSErGS9UpNDdvHUWi4sV4gRVeJ8oA",
       "price": "0.15",
       "rating": 3,
       "stock": 12

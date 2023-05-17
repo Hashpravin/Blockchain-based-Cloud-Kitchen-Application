@@ -1,10 +1,6 @@
 // We require the Hardhat Runtime Environment explicitly here. This is optional
-// but useful for running the script in a standalone fashion through `node <script>`.
-//
-// run a script with `npx hardhat run <script>`.Hardhat
 // will compile contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
-
 // Hardhat let script which is just instruction to deploy 
 // our smart contract on blockchain
 const hre = require("hardhat")

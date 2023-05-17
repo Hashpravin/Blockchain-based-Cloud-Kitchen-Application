@@ -38,7 +38,8 @@ function App() {
   }
 
   const loadBlockchainData = async() => {
-      /*Steps involved
+      console.log("Loading....")
+    /*Steps involved
       1] Connect blockchain
       2] Connect Smart contracts
       3] Load Products
@@ -76,6 +77,7 @@ function App() {
     //  console.log(sz)
       for(var i=0;i<9;i++){
         const item = await tasty.items(i+1)
+        console.log(item)
         items.push(item)
       }
       

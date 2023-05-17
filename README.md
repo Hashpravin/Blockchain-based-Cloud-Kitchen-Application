@@ -1,7 +1,18 @@
 
 # TastyBite - taste the best
 ---
-
+## Contents:
+1. [Introduction](#introduction)
+2. [Contract Overview](#contract-overview)
+3. [Contract Structure](#contract-structure)
+4. [Setup Guide](#setup-guide)
+5. [Deployment Instruction](#deployment-instructions)
+6. [Integration Guide](#integration-guide)
+7. [Planning](#planning)
+8. [Conclusion](#conclusion)
+9. [Reference](#references)
+10. [Snaphshots of App](#screenshots)
+---
 ## Introduction
 Welcome to the TastyBite documentation! This documentation provides an overview of the TastyBite project and details about the smart contract that powers it.
 
@@ -43,6 +54,12 @@ The TastyBite Smart Contract consists of the following components:
   - `buy`: Enables users to purchase an item by providing the item ID and sending sufficient funds. It verifies the payment, item availability, creates an order, updates the stock, and emits the `Buy` event.
   - `withdraw`: Allows the contract owner to withdraw the accumulated funds from the contract.
 
+  ---
+  TODO:
+  For pseudo code of smart contract follow this [Pseudo Codes](./Implementation/)
+
+  ---
+
 ## Setup Guide
 
  [Follow this](./Implementation/README.md) 
@@ -63,20 +80,57 @@ To deploy the TastyBite Smart Contract, follow these steps:
 5. Once the deployment is successfull it script with output the deployed contract address.
 
 ## Integration Guide
+1. Install Required Packages:
+```
+npm install ethers chai
+```  
+2. Import  chai, ether and hardhat:
+- To importing the above libraries use following lines of code
+```
+const { expect } = require("chai")
+import { ethers } from 'ethers'
+const hre = require("hardhat")
+```
+3. Deploying the smart contract 
+- To deploy smart contract follow 2 steps as follows:
+  1. Setup the accounts of deployer by using following lines of code :
+  ```
+  const [deployer] = await ethers.getSigners()
+  ```
+  2. Deploy the smart contract using following code:
+  ```
+  const Tasty = await hre.ethers.getContractFactory("TastyBite")
+  const tasty = await Tasty.deploy()
+  await tasty.deployed()
+  ``` 
+4. Connecting Application with the blockchain
+- To connecting frontend with the blockchain use below code
+```
+const provider = new ethers.providers.Web3Provider(window.ethereum)
+setProvider(provider)
+```
+- Now Check the network
+```
+const network = await provider.getNetwork()
+console.log(network)
+```
+- Now to interact with smart contract create js version of smart contract by ether.js using following code:
+```
+const tasty = new ethers.Contract(config[network.chainId].TastyBites.address, 
+      TastyBite, 
+      provider 
+)
+setTastyBites(tasty)
 
+```
+---
+By storing the js version of smart contract in "tasty" variable we successfully connect our smart contract with frontend. Now to test it follow the instruction of [Deployment](#deployment-instructions) section.
 
+---
 
 ## Planning 
 
 [Highlevel Overview of TastyBite](./bussinessLogic/README.md)
-
-## References
- **Papers**
-1. [Blockchain Adoption in Food Supply Chains](./Research-Paper/Blockchain_Adoption_in_Food_Supply_Chains_A_Systematic_Literature_Review_on_Enablers_Benefits_and_Barriers.pdf)
-2. [Blockchain for Industry 5.0](\Research-Paper\Blockchain_for_Industry_5.0_Vision_Opportunities_Key_Enablers_and_Future_Directions.pdf)
-
-**Tutorial**
- 1. [Blockchain from beginner to advance](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=545s)
 
 ## Conclusion
 While doing this project we learn:
@@ -92,8 +146,29 @@ By combining blockchain technology with a decentralized application like TastyBi
 
 Thank you for following this documentation. If you have any questions or feedback, please don't hesitate to reach out to me. 
 
-## Screenshots
+## References
+ **Papers**
+1. [Blockchain Adoption in Food Supply Chains](./Research-Paper/Blockchain_Adoption_in_Food_Supply_Chains_A_Systematic_Literature_Review_on_Enablers_Benefits_and_Barriers.pdf)
+2. [Blockchain for Industry 5.0](\Research-Paper\Blockchain_for_Industry_5.0_Vision_Opportunities_Key_Enablers_and_Future_Directions.pdf)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+**Tutorial**
+ 1. [Blockchain from beginner to advance](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=545s)
+
+## Screenshots
+- Application Page: 
+
+![App Screenshot](./Implementation/AppSnapshots/MainPage.png)
+
+- Payment Window : 
+
+![App Screenshot](./Implementation/AppSnapshots/PaymentWindow.png)
+
+- Payment Processing :
+
+![App Screenshot](./Implementation/AppSnapshots/PaymentInProcess.png)
+
+- Final Payment Status :
+![App Screenshot](./Implementation/AppSnapshots/FinalStatus.png)
+
 
 

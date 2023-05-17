@@ -68,7 +68,7 @@ To deploy the TastyBite Smart Contract, follow these steps:
 
 ## Planning 
 
-[Highlevel Overview of TastyBite](./bussinessLogic\README.md)
+[Highlevel Overview of TastyBite](./bussinessLogic/README.md)
 
 ## References
  **Papers**

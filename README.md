@@ -45,7 +45,7 @@ The TastyBite Smart Contract consists of the following components:
 
 ## Setup Guide
 
- [Follow this](\Implementation\README.md) 
+ [Follow this](./Implementation/README.md) 
 
 ## Deployment Instructions
 
@@ -68,11 +68,11 @@ To deploy the TastyBite Smart Contract, follow these steps:
 
 ## Planning 
 
-[Highlevel Overview of TastyBite](\bussinessLogic\README.md)
+[Highlevel Overview of TastyBite](./bussinessLogic\README.md)
 
 ## References
  **Papers**
-1. [Blockchain Adoption in Food Supply Chains](\Research-Paper\Blockchain_Adoption_in_Food_Supply_Chains_A_Systematic_Literature_Review_on_Enablers_Benefits_and_Barriers.pdf)
+1. [Blockchain Adoption in Food Supply Chains](./Research-Paper/Blockchain_Adoption_in_Food_Supply_Chains_A_Systematic_Literature_Review_on_Enablers_Benefits_and_Barriers.pdf)
 2. [Blockchain for Industry 5.0](\Research-Paper\Blockchain_for_Industry_5.0_Vision_Opportunities_Key_Enablers_and_Future_Directions.pdf)
 
 **Tutorial**

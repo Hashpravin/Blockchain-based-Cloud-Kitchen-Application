@@ -11,7 +11,7 @@
 7. [Planning](#planning)
 8. [Conclusion](#conclusion)
 9. [Reference](#references)
-10. [Snaphshots of App](#screenshots)
+10. [Snaphshots of App](#snapshots-of-an-application)
 ---
 ## Introduction
 Welcome to the TastyBite documentation! This documentation provides an overview of the TastyBite project and details about the smart contract that powers it.
@@ -56,7 +56,7 @@ The TastyBite Smart Contract consists of the following components:
 
   ---
   TODO:
-  For pseudo code of smart contract follow this [Pseudo Codes](./Implementation/)
+  For pseudo code of other smart contracts follow this [Pseudo Codes](./Implementation/)
 
   ---
 
@@ -154,7 +154,7 @@ Thank you for following this documentation. If you have any questions or feedbac
 **Tutorial**
  1. [Blockchain from beginner to advance](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=545s)
 
-## Screenshots
+## Snapshots of an Application
 - Application Page: 
 
 ![App Screenshot](./Implementation/AppSnapshots/MainPage.png)
@@ -168,6 +168,7 @@ Thank you for following this documentation. If you have any questions or feedbac
 ![App Screenshot](./Implementation/AppSnapshots/PaymentInProcess.png)
 
 - Final Payment Status :
+
 ![App Screenshot](./Implementation/AppSnapshots/FinalStatus.png)
 
 
